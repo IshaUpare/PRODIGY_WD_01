@@ -1,0 +1,4 @@
+function changeMessage() {
+    var messageElement = document.getElementById('response-message');
+    messageElement.innerHTML = 'Button clicked! This is a new message.';
+}
